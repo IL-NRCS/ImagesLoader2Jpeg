@@ -11,7 +11,7 @@
  
 This script/toolbox (ArcPro - Python 3) assists in the organization, downsizing, and propagation of metadata for image files. 
 
-As of 02/21/2023, there are 2 component files of the ImagesLoaderV5.tbx.
+As of 02/21/2023, there are 2 component files of the ImagesLoader-jpegConvert_V09.tbx.
 
 1) ImagesLoader
 2) NoMetadataImagesList
