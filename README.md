@@ -55,6 +55,8 @@ running 'ImagesLoader'. Input is a directory of source images & an output locati
 
 06/15/2023 - Modified 'ImagesLoader-jpegConvert' to handle cases where there is a metadata field (like 'tags') with items seperated by a ','.
 
+06/15/2023 - added 'ImagesLoader2Jpeg-ONLY_RUN_IF_NO_METADATA' folder. Only difference in this folder is the 'NoMetadataImagesList' merely creates a blank metadata template (i.e. doesn't read the source metadata). Naturally, this runs faster then the original 'NoMetadataImagesList' - but should be used with caution (and ONLY if the user is aware that there is no metadata in the source data).
+
 
 ![Screenshot](https://github.com/IL-NRCS/ImagesLoader2Jpeg/blob/main/Capture.JPG)
 
